@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package labex9;
+
+/**
+ *
+ * @author user
+ */
+public class noformat {
+    public static void main(String[] args) {
+        String s="h";
+        int k;
+         try
+        {
+            k = Integer.parseInt(s);
+            System.out.println(k);
+        }
+         catch(NumberFormatException e)
+        {
+            System.out.println(e);
+        }
+    
+}
+}
